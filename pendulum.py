@@ -27,5 +27,4 @@ def theta(t):
 if __name__ == "__main__":
     THETA_0 = np.pi / 3
     THETA_DOT_0 = 0
-    print(theta(10))Pendulum-Diff-EQ
-Public
+    print(theta(10))
