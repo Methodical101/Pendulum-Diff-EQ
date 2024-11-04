@@ -10,7 +10,7 @@ def get_theta_double_dot(theta, theta_dot):
     return -mu * theta_dot - (g / L) * np.sin(theta)
 
 # Solution to the differential equation
-def theta(t): 
+def theta(t):
     # Initialize changing values
     theta = THETA_0
     theta_dot = THETA_DOT_0
